@@ -1,0 +1,17 @@
+body {
+	max-width: 1280px;
+	/*margin: 0 auto 0 auto;*/
+}
+
+.question {
+	overflow: auto;
+}
+
+dd.correct {
+	font-weight: bold;
+}
+
+.exercise-image {
+	width: auto;
+	float: right;
+}

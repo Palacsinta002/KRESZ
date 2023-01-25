@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KRESZ teszt</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta property="og:site_name" content="KRESZ teszt" />
+        <meta property="og:description" content="Gyakorolj a megújult KRESZ tesztre okosan! Regisztráció nélkül, akár mobilról is." />
+        <!-- React -->
+        <script src="assets/react-0.13.3.min.js"></script>
+        <!-- JQuery -->
+        <script src="assets/jquery-2.1.4.min.js"></script>
+        <link rel="stylesheet" href="assets/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
+        <!-- <link href="assets/material-icons.css" rel="stylesheet">   -->
+        <script src="assets/materialize.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <!-- Own code -->
+        <link href="style.css" rel="stylesheet">
+        <script src="model.js"></script>
+        <script src="ui.compiled.js"></script>
+        
+    </head>
+    <body>
+        <!-- grey-text text-darken-4 -->
+        <div id="content" class=""></div>
+
+        <script type="text/javascript">
+            React.render(
+                React.createElement(App),
+                document.getElementById('content')
+            );
+        </script>
+        <script src="http://kresz-tesztelo.rhcloud.com/offline-trackback.js" async="true" type="text/javascript"></script>
+    </body>
+</html>
