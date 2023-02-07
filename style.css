@@ -48,7 +48,9 @@ body {
 a {
     cursor: pointer;
 }
-
+p {
+    color: white;
+}
 label {
     color: inherit;
 }
