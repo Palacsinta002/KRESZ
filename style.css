@@ -42,14 +42,11 @@
 * Custom
 */
 body {
-	background-color: black;
+	background-color: white;
 }
 
 a {
     cursor: pointer;
-}
-p {
-    color: white;
 }
 label {
     color: inherit;
@@ -78,9 +75,6 @@ label {
     text-align: center;
     font-weight: bold;
     padding-top: 8px !important;
-}
-.card{
-    background-color: black;
 }
 .card.decided {
     transition: background-color .25s;
